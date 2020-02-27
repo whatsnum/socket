@@ -97,4 +97,7 @@
             </div>
         </div>
     </body>
+    <Script>
+      // console.log("{{csrf_token()}}");
+    </script>
 </html>
