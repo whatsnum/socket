@@ -1,0 +1,10 @@
+{
+  "name": "socket_http_server",
+  "interpreter": "php",
+  "script": "artisan",
+  "args": "serve --host=whatsnum.org",
+  "instances": 1,
+  "autorestart": true,
+  "watch": false,
+  "max_memory_restart": "1G",
+}
