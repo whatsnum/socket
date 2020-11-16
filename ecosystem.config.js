@@ -12,7 +12,7 @@ module.exports = {
   "name": "socket_server",
   "interpreter": "php",
   "script": "artisan",
-  "args": "serve --host=whatsnum.org",
+  "args": "serve --port=8001",
   "instances": 1,
   "autorestart": true,
   "watch": false,
