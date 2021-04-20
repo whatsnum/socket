@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "beyondcode/laravel-websockets": "^2.0.0-beta.34",
+        "beyondcode/laravel-websockets": "dev-redis-lock-timeout",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
@@ -44,6 +44,12 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/myckhel/laravel-websockets.git"
+      }
+    ],
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
